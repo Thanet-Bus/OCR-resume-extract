@@ -5,14 +5,6 @@ import api
 
 # COMMENT: data[(resume_data,([number],[email])),]
 
-class PersonalResumeData():
-    name: str
-    lname: str
-    introduce: str
-    skill: str
-    phone: str
-    email: str
-
 def reformat_data(ai, regex):
     name = ai.name
     lname = ai.lname

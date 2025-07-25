@@ -15,12 +15,6 @@ label.pack(pady=size)
 upload_button = tk.Button(app, text="Upload file", command=window_setting.upload_files)
 upload_button.pack(pady=size)
 
-# TODO: create different page to show :
-# - name (both english and thai)
-# - email
-# - phone number'
-# of each resumes
-
 app.mainloop()
 
 

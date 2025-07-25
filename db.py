@@ -10,10 +10,6 @@ host = os.getenv('HOST')
 port = os.getenv('PORT')
 db = os.getenv('DB_NAME')
 
-def check_resume(phone):
-    check = f'where phonenumber = {phone}'
-    return check
-
 try:
     connection = psycopg2.connect(
         user = user, 
