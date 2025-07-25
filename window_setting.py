@@ -26,6 +26,9 @@ def upload_files():
     file_path = filedialog.askopenfilenames(title = 'Select files to upload')
     if file_path:
         messagebox.showinfo("Starting", "Click OK to start extracting data.\nThis may take a while. Please wait till finish show up")
+    else:
+        messagebox.showwarning("Opps!!", "You didn't choose any files")
+        return
     
     def worker():
         try:
