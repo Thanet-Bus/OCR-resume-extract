@@ -1,4 +1,3 @@
-
 import tkinter as tk
 import resume_content_extract
 import threading
